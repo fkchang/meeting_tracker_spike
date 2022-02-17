@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/ruby2js/ruby2js.git
+  revision: 568b252ff9758a77478c2716adf3c448c24f2212
+  specs:
+    ruby2js (4.2.2)
+      parser
+      regexp_parser (~> 2.1.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -14,9 +22,6 @@ GEM
       rack
     regexp_parser (2.1.1)
     ruby2_keywords (0.0.5)
-    ruby2js (4.2.2)
-      parser
-      regexp_parser (~> 2.1.1)
     sinatra (2.2.0)
       mustermann (~> 1.0)
       rack (~> 2.2)
@@ -30,8 +35,8 @@ PLATFORMS
 
 DEPENDENCIES
   haml
-  ruby2js
+  ruby2js!
   sinatra
 
 BUNDLED WITH
-   2.1.4
+   2.2.33
